@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500");
+
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+div {
+  position: relative;
+  z-index: 2;
+}
+
+h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+body {
+  background-color: rgba(122, 172, 108, 0.984);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.footer {
+  width: 500px;
+  text-align: center;
+  display: block;
+  font-size: 0.8rem;
+  margin: 15px auto 30px auto;
+  color: #fff;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+  font-style: italic;
+}
+
+#quote-container {
+  border-radius: 5px;
+  position: relative;
+  margin: 8% auto auto auto;
+  width: 500px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+}
+
+.quote-text {
+  text-align: center;
+}
+
+.quote-text > span {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.quote-author {
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.buttons {
+  width: 500px;
+  margin: auto;
+  display: block;
+}
+
+.button {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgba(122, 172, 108, 0.984);
+  outline: none;
+  font-size: 1rem;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+#tweet-quote,
+#facebook-quote {
+  float: left;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1rem;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+}
+
+#new-quote {
+  float: right;
+}
