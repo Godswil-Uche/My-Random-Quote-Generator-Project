@@ -1,4 +1,4 @@
-This project is a quote generator which generates random quotes templates and gets it to display on the main page with different colours.
+This project is a quote generator that generates random quote templates and gets them to display on the main page with different colors.
 
 TECHNOLOGIES USED
 HTML
