@@ -31,6 +31,10 @@ quotesData = [
     quote: "Just remember; someone loves everything you hate about yourself.",
     author: "Frank Ocean",
   },
+  {
+    quote: "It's always too early to quit.",
+    author: "Norman Vincent Peale"
+  }
 ];
 
 //Color Variables
